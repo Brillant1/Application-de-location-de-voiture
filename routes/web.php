@@ -25,3 +25,9 @@ Route::get('gammeAlouer',function(){
 Route::get('voitureDetails',function(){
     return view('voitureDetails');
 });
+Route::get('faq',function(){
+    return view('faq');
+});
+Route::get('connexion',function(){
+    return view('connexion');
+});
